@@ -90,7 +90,7 @@ const Footer = () => {
   const onClearCompletedClicked = () => dispatch(completedTodosCleared());
   const onColorChange = (color, changeType) =>
     dispatch(colorFilterChanged(color, changeType));
-  const onStatusChange = (state) => dispatch(statusFilterChanged(status));
+  const onStatusChange = (status) => dispatch(statusFilterChanged(status));
 
   return (
     <footer className="footer">

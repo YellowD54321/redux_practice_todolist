@@ -4,8 +4,8 @@ import filterReducer from "./Components/features/filters/filtersSlice";
 
 const store = configureStore({
   reducer: {
-    todo: todoReducer,
-    filter: filterReducer,
+    todos: todoReducer,
+    filters: filterReducer,
   },
 });
 

@@ -16,6 +16,8 @@ const filtersSlice = createSlice({
   initialState,
   reducers: {
     statusFilterChanged(state, action) {
+      console.log("state", state);
+      console.log("action", action);
       state.status = action.payload;
     },
     colorFilterChanged: {
